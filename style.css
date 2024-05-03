@@ -13,9 +13,9 @@
     --text-color: #fff;
     --bg-color: #000;
     --main-color: #ffa343;
-    --h1-font:80px;
+    --h1-font:70px;
     --h2-font:28px;
-    --p-font:14px;
+    --p-font:16px;
 }
 body{
     color: var(--text-color);
@@ -98,7 +98,7 @@ section{
     justify-content: flex-start;
 }
 .home-text h5{
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 600;
     margin-bottom: 10px;
     text-transform: uppercase;
@@ -167,7 +167,7 @@ header.sticky{
     transform: scale(1.2);
 }
 .feature-content h4{
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 500;
     cursor: pointer;
     transition: all ease .50s;
@@ -329,12 +329,12 @@ header.sticky{
     flex-direction: column;
 }
 .footer-box h3{
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
     margin-bottom: 12px;
 }
 .footer-box a{
-    font-size: 10px;
+    font-size: 12px;
     color: #979797;
     margin-bottom: 10px;
     transition: all ease .50s;
@@ -389,9 +389,9 @@ header.sticky{
         padding: 30px 5% 25px;
     }
     :root{
-        --h1-font:60px;
-        --h2-font:18px;
-        --p-font:10px;
+        --h1-font:55px;
+        --h2-font:20px;
+        --p-font:12px;
     }
     .home{
         height: 90vh;
@@ -449,7 +449,7 @@ header.sticky{
 }
 @media (max-width: 600px){
     :root{
-        --h1-font:40px;
+        --h1-font:45px;
         --h2-font:14px;
     }
     .home{
