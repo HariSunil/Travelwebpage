@@ -35,7 +35,7 @@ header{
     transition: all ease .50s;
 }
 .logo{
-    font-size: 21px;
+    font-size: 32px;
     color: var(--text-color);
     font-weight: 700;
 }
@@ -47,7 +47,7 @@ span{
 }
 .navbar a{
     color:var(--text-color);
-    font-size:10px;
+    font-size:16px;
     font-weight: 500;
     margin: 15px 18px;
     transition: all ease .50s;
@@ -61,12 +61,12 @@ span{
 }
 .h-right a:first-child{
     color:var(--text-color);
-    font-size:12px;
+    font-size:16px;
     margin-right:20px;
 }
 .h-right a{
     vertical-align: middle;
-    font-size: 14px;
+    font-size: 16px;
     color:var(--text-color);
     margin-right: 12px;
     margin-left: 5px;
