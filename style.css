@@ -81,7 +81,7 @@ span{
     font-size: 20px;
     cursor: pointer;
     z-index: 10001;
-    display:none;
+    display: none;
 }
 section{
     padding:70px 17% 60px;
@@ -151,8 +151,8 @@ header.sticky{
 }
 .row-img{   
     overflow: hidden;
-    width:70px;
-    height:70px;
+    width:100px;
+    height:100px;
     margin: 0 auto;
     margin-bottom: 20px;
     border-radius: 50%;
@@ -407,9 +407,9 @@ header.sticky{
     .culture{
         gap:36px;
     }
-    #menu-icon{
-        display:block;
-    }
+     #menu-icon{
+         display:block;
+     }
     .navbar{
         position:absolute;
         width:100%;
@@ -456,7 +456,7 @@ header.sticky{
         height:80vh;
     }
 }
-@media (max-width: 450px){
+@media (max-width: 420px){
     header{
         padding: 15px 3%;
     }
@@ -464,6 +464,6 @@ header.sticky{
         padding: 7px 3%;
     }
     section{
-        padding: 60px 3% 50px;
-    }
+        padding: 40px 2% 30px;
+    } 
 }
